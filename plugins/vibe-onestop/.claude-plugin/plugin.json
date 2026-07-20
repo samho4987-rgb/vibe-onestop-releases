@@ -1,0 +1,14 @@
+{
+  "name": "vibe-onestop",
+  "version": "1.4.0",
+  "description": "부동산 매물접수 업무자동화 파이프라인 — 접수 파싱부터 검증, 홍보 콘텐츠 생성, 패키지 저장까지. 스킬 6종 + MCP 서버 4종 동봉(단일 실행파일, Windows x64 — Python 설치 불필요). realty-pipeline MCP는 별도 등록.",
+  "author": {
+    "name": "안빈"
+  },
+  "keywords": [
+    "real-estate",
+    "부동산",
+    "매물",
+    "pipeline"
+  ]
+}

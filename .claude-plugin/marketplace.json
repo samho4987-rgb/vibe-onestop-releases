@@ -1,0 +1,14 @@
+{
+  "name": "greencore",
+  "owner": {
+    "name": "그린코아공인중개사사무소",
+    "email": "samho4987@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "vibe-onestop",
+      "source": "./plugins/vibe-onestop",
+      "description": "부동산 매물접수 업무자동화 파이프라인 — 접수 파싱부터 검증, 홍보 콘텐츠(블로그·유튜브·SNS) 생성까지. 스킬 6종 + MCP 서버 4종(Windows) 동봉"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "vibe-ledger": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/vibe-servers.exe",
+      "args": [
+        "ledger"
+      ]
+    },
+    "vibe-geo": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/vibe-servers.exe",
+      "args": [
+        "geo"
+      ]
+    },
+    "vibe-pubdata": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/vibe-servers.exe",
+      "args": [
+        "pubdata"
+      ]
+    },
+    "vibe-news": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/vibe-servers.exe",
+      "args": [
+        "news"
+      ]
+    }
+  }
+}
