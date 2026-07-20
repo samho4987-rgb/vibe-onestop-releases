@@ -1,4 +1,4 @@
-# vibe-onestop 플러그인 v1.4.0
+# vibe-onestop 플러그인 v1.4.1
 
 부동산 매물접수 업무자동화 파이프라인. 연결규약 v1.2 기준.
 **MCP 서버 4종이 단일 Windows 실행파일로 동봉** — 플러그인 설치 한 번으로 끝.
@@ -15,7 +15,7 @@ v1.4에서 서버 4개를 하나의 exe로 통합해 용량을 105MB → 32MB로
 | youtube-script | 숏폼 60초·롱폼 스크립트 |
 | sns-card | 인스타 문구 + Canva 카드뉴스 지시서 |
 
-## 동봉 MCP 서버 4종 (bin/vibe-servers.exe 단일 파일, Windows x64 전용)
+## 동봉 MCP 서버 4종 (servers/vibe-servers.exe 단일 파일, Windows x64 전용)
 
 | 서버 | 역할 | 데이터 위치 |
 |---|---|---|
@@ -24,7 +24,7 @@ v1.4에서 서버 4개를 하나의 exe로 통합해 용량을 105MB → 32MB로
 | vibe-pubdata | 건축물대장·실거래 비교·보증금 안전 (data.go.kr) | 키 `~/.greencore/` |
 | vibe-news | 부동산 뉴스 수집·글감 (네이버 검색 API) | `~/.vibe-news/` |
 
-`.mcp.json`이 `${CLAUDE_PLUGIN_ROOT}/bin/vibe-servers.exe`를 서버명 인자(ledger/geo/pubdata/news)와 함께 stdio로 실행합니다.
+`.mcp.json`이 `${CLAUDE_PLUGIN_ROOT}/servers/vibe-servers.exe`를 서버명 인자(ledger/geo/pubdata/news)와 함께 stdio로 실행합니다.
 API 키는 설치 후 대화에서 `set_api_key` 도구로 등록 (카카오 REST / data.go.kr Decoding / 네이버).
 
 - **macOS**: 동봉 exe는 실행 불가. 스킬만 사용하고 MCP 서버는 기존처럼 Python으로 별도 등록.

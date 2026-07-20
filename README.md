@@ -25,7 +25,7 @@
 
 ### 방법 2. 파일로 설치
 
-1. [Releases](../../releases)에서 최신 `vibe-onestop-1.4.0.plugin` 다운로드
+1. [Releases](../../releases)에서 최신 `vibe-onestop-1.4.1.plugin` 다운로드
 2. Claude 데스크톱 앱 왼쪽 사이드바 맨 아래 **사용자 지정** 클릭
 3. 설정 창에서 **플러그인** 클릭
 4. 오른쪽 위 **추가 ▾** → **플러그인 업로드**
